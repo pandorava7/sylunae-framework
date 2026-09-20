@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="可复用的 Sylunae Electron 与 Web 应用框架" />
+    <meta name="application-name" content="Sylunae Framework" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sylunae Framework" />
+    <meta property="og:description" content="可复用的 Electron 与 Web 应用框架" />
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https:; connect-src 'self' ws: wss:; object-src 'none'; base-uri 'self'" />
+    <script type="module" src="/src/theme-init.ts"></script>
+    <title>Sylunae Framework</title>
+  </head>
+  <body>
+    <div id="root"><div class="boot-splash"><span class="spinner"></span><span>正在准备应用…</span></div></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
